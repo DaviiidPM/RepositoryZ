@@ -1,1 +1,17 @@
-Alo
+while (endgame == false) {
+		switch (Tecla.type)
+		{
+		case SDL_KEYDOWN:
+
+			if (Tecla.key.keysym.scancode == SDL_SCANCODE_1) {
+
+				SDL_SetRenderDrawColor(render, 255, 0, 0, 0);
+			}
+			if (Tecla.key.keysym.scancode == SDL_SCANCODE_2) {
+	
+			}
+			if (Tecla.key.keysym.scancode == SDL_QUIT) {
+
+				endgame = true;
+			}
+		}
